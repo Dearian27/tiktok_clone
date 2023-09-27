@@ -10,7 +10,7 @@ export default function TopNav() {
       <div id="TopNav" className="fixed bg-white z-30 flex items-center w-full border-b h-[60px]">
         <div className={`flex items-center justify-between mx-auto gap-6 w-full px-4 ${pathname == '/' ? 'max-w-[1150px]' : ''}`}>
           <Link href={'/'}>
-            <img className="min-w[115px] w-[115px]" src="/images/tiktok_logo.png" alt="" />
+            <img className="min-w[115px] w-[115px]" src="/images/tiktok-logo.png" alt="" />
           </Link>
         </div>
       </div>
